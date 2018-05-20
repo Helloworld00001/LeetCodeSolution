@@ -2,6 +2,8 @@ package lin.changcheng.leetcode;
 
 /**
  * 判断输入是否可以成为两个数的平方和
+ * <p>
+ * @see <a href="https://leetcode.com/problems/sum-of-square-numbers/description/">633. Sum of Square Numbers</a>
  *
  * @author greatwall
  */

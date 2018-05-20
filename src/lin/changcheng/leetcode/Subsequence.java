@@ -2,6 +2,7 @@ package lin.changcheng.leetcode;
 
 /**
  * 两个输入字符串，前者是否为后者的子串
+ * @see <a href="https://leetcode.com/problems/is-subsequence/description/">392. Is Subsequence</a>
  *
  * @author greatwall
  */

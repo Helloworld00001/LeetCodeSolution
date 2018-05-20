@@ -2,6 +2,8 @@ package lin.changcheng.leetcode;
 
 /**
  * 判断回文算法
+ * <p>
+ * @see <a href="https://leetcode.com/problems/valid-palindrome-ii/description/">680. Valid Palindrome II</a>
  *
  * @author greatwall
  */
@@ -17,7 +19,6 @@ public class Palindrome {
 	}
 
 	private boolean isPalindrome(String s, int i, int j) {
-		System.out.println("当前s=" + s);
 		while (i < j)
 			if (s.charAt(i++) != s.charAt(j--))
 				return false;
