@@ -1,4 +1,4 @@
-package lin.changcheng.haffman;
+package lin.changcheng.algorithm.haffman;
 
 import java.util.*;
 

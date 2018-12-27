@@ -26,16 +26,16 @@ public class IntToRoman {
 	}
 
 	public String intToRoman(int num) {
-		int maxDigit = 1000;
+		int digit = 1000;
 
 		StringBuilder sb = new StringBuilder();
 
-		while(maxDigit >= 1) {
-			int n = num / maxDigit;
-			sb.append(parseToRoman(n, maxDigit));
+		while(digit >= 1) {
+			int n = num / digit;
+			sb.append(parseToRoman(n, digit));
 
-			num = num % maxDigit;
-			maxDigit = maxDigit / 10;
+			num = num % digit;
+			digit = digit / 10;
 		}
 		return sb.toString();
 	}
